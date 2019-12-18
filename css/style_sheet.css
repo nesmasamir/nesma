@@ -1,0 +1,675 @@
+
+
+
+
+
+
+
+ body
+ {
+    font-family: "Open Sans", sans-serif;
+ }
+ 
+ 
+ .nav_line a
+{
+  transition: 1s color ;  
+
+}
+.nav_line a:hover
+{
+color: #f25454 !important;
+
+}
+
+
+
+.icon_header
+{
+    color: white;
+    transition: 1s color ;  
+
+}
+
+
+
+.icon_header:hover
+{
+
+    color: #f25454;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.caros
+{
+
+    position: relative;
+}
+
+.caros h1
+{
+position: absolute;
+top: 40%;
+left: 25%;
+z-index: 99999999;
+font-weight: 700;
+font-size: 70px;
+color: white;
+
+}
+
+/*start of about section-----------------------------------------------------------------------------------------------------------------*/
+
+.about_title
+{
+position: relative;
+
+}
+
+
+.about_title h1
+
+{
+
+    font-size: 5rem;
+    font-weight: 600;
+    color: #f2f2f2;
+}
+
+
+
+.about_title h2
+{
+position: absolute;
+z-index: 999999;
+font-size: 2.5rem;
+    font-weight: 700;
+    margin-top:30px;
+
+
+}
+
+.progress_size
+{
+    height: 5px;
+
+}
+
+
+/*start of team section-----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+.team_title
+{
+position: relative;
+
+}
+
+
+.team_title h1
+
+{
+
+    font-size: 5rem;
+    font-weight: 600;
+    color: #f2f2f2;
+}
+
+
+
+.team_title h2
+{
+position: absolute;
+z-index: 999999;
+font-size: 2.5rem;
+    font-weight: 700;
+    margin-top:30px;
+
+
+}
+
+.team_member
+{
+
+overflow: hidden;
+}
+
+
+
+.img_container
+{
+
+position: relative;
+overflow: hidden;
+}
+.icons_container
+{
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(242, 84, 84, 0.85);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 60%;
+    color: white;
+    opacity: 0;
+    transition: 1s opacity;
+
+}
+
+.img_container img
+{
+
+    transition: 0.5s transform;
+} 
+
+.team_member:hover .img_container img 
+{
+
+transform: scale(1.1,1.1);
+}
+
+
+.team_member:hover .icons_container
+{
+
+opacity: 1;
+
+}
+
+.team_member h5
+{
+    transition: 1s ;
+}
+
+.team_member:hover.team_member h5
+{
+
+color: #f25454 ;
+
+}
+
+
+
+
+
+/*start of recent project----------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+.project_items
+{
+
+position: relative;
+
+}
+
+.project_item
+{
+overflow: hidden;
+
+}
+.project_layer
+{
+ width: 100%;
+ height: 100%;
+ background: rgba(255, 255, 255, 0.95);
+ padding-top:50% ;
+ margin: 5px;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ opacity: 0;
+ transition: 0.5s opacity;
+ 
+}
+
+img
+{
+    transition: 1s transform;
+}
+
+.project_item:hover .project_layer
+
+{
+opacity: 1;
+}
+
+.project_item:hover  img
+{
+transform: scale(1.1 ,1.1);
+
+}
+
+
+/*start of proect style two----------------------------------------------------------------------------------------------------------------*/
+
+
+
+ul 
+{
+
+    list-style: none;
+}
+
+.bootn
+{
+    background-color:  #f25454 !important;
+    transition: 1s opacity;
+    border: none;
+}
+.bootn:hover
+{
+    opacity: 0.7;
+}
+
+
+/*start of client review section---------------------------------------------------------------------------------------------------------------*/
+
+
+
+.client_member img
+{
+
+    border-radius: 50%;
+}
+.member_review
+{
+transform: scale(1.2,1.2);
+}
+
+
+.member_layer
+{
+opacity: 0.5;
+}
+
+
+
+/*start of count section---------------------------------------------------------------------------------------------------------------*/
+
+.count_section
+{
+
+    background-color:#1f1f1f ;
+    color: white;
+}
+.count_number h5
+{
+
+    font-size: 3rem;
+    font-weight: 700;
+    padding-top: 10px;
+    
+}
+
+
+.count_number
+{
+    position: relative;
+    
+    padding: 50px;
+    
+}
+.count_number::after
+{
+content: "";
+    background-color: gray;
+    width: 1px;
+    height: 30%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+
+}
+
+
+
+
+/*-start of blog section--------------------------------------------------------------------------------------------------------------*/
+.blog_content
+{
+
+    overflow: hidden;
+    position: relative;
+}
+
+ .blog_content img
+ {
+    transition: 0.5s transform  , 0.5s opacity;
+
+
+ }
+
+
+
+.blog_content img:hover
+{
+transform: scale(1.1, 1.1);
+opacity: 0.5;
+
+}
+
+.blog_content h5
+{
+
+transition: 1s color;
+}
+
+.blog_content h5:hover
+{
+
+color: #f25454  ;
+
+}
+
+
+.blog_content .badge
+{
+    background-color: #f25454;
+    color: white;
+    width: 30%;
+    
+    position: absolute;
+    top: 10%;
+    right: 0px;
+    z-index: 999999;
+
+}
+
+
+
+
+
+/*-start of logo section--------------------------------------------------------------------------------------------------------------*/
+
+.logo_item img
+{
+
+  opacity: 0.7;  
+  transition: 1s opacity;
+}
+
+.logo_item img:hover
+{
+    opacity: 1;
+}
+
+.logos_contaainer
+{
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+
+
+
+
+
+
+/*-start of contact section--------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .title_1 h5
+{
+color: #1e1e1e;
+font-size: 2rem;
+font-weight: 500;
+}
+input , textarea
+{
+
+    width: 100%;
+    padding: 6px 10px 6px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+h2
+{
+    background-color: teal;
+    width: 250px;
+}
+
+.test
+{
+    background-color: teal;
+    width: 250px;
+    height: 250px;
+
+   
+
+
+.type_animation::after
+{
+   
+content: "  ";
+width: 300px;
+animation-name: nesma;
+position: absolute;
+top: 0px;
+left: 60%;
+overflow: hidden;
+animation-iteration-count: infinite;
+animation-duration: 10s;
+
+animation-direction: alternate;
+border-right: solid 1px #000000;
+
+
+
+}
+
+
+@keyframes nesma
+{
+0%{ width: 200px; content: "webdwveloper"; }
+20%{ width: 0px;}
+30%{ width: 200px; content: " webdesigner"; }
+40%{ width: 0px;}
+50%{ width: 200px; content: " webceo"; }
+60%{ width: 0px;}
+80%{ width: 200px; content: "  graphicdesigner"; }
+100%{ width: 0px;}
+
+}
+
+visibility: hidden;    display:none مبتحجزش    visibility:hidden بتحجز   opacity:0-1 لاخفاء العناصر    بتحجز */
